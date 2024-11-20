@@ -1,0 +1,47 @@
+﻿@{
+    var successMessage = TempData["SuccessMessage"] as string;
+    var errorMessage = TempData["ErrorMessage"] as string;
+}
+
+<style>
+    #notification-container {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 1050; /* Hiển thị trên các thành phần khác */
+        max-width: 400px;
+    }
+
+    .alert {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        opacity: 0.95;
+    }
+
+</style>
+
+<div id="notification-container">
+    @if (!string.IsNullOrEmpty(successMessage))
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <strong>Thành công! @successMessage</strong>
+        </div>
+    }
+
+    @if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <strong>@errorMessage</strong>
+        </div>
+    }
+</div>
+
+<script>
+    // Tự động ẩn thông báo sau 5 giây
+    setTimeout(() => {
+        const alerts = document.querySelectorAll('.alert');
+        alerts.forEach(alert => {
+            alert.classList.remove('show'); // Làm thông báo mờ dần
+            setTimeout(() => alert.remove(), 300); // Sau khi mờ dần, xóa khỏi DOM
+        });
+    }, 5000);
+</script>
