@@ -38,11 +38,12 @@
         </div>
         <div class="form-group">
             <label>Image</label>
-            <input asp-for="ImageUpLoad" class="form-control" />
+            <input asp-for="ImageUpLoad" type="file" class="form-control" onchange="readURL(this)" />
             <span asp-validation-for="ImageUpLoad" class="text-danger" />
+            <img id="imgpreview" class="pt-2" src="~/images/default-img.jpg" style="max-width: 200px; max-height: 200px;  />
         </div>
-        </br>
-        <div class="form-group"> 
+
+        <div class="form-group mt-2"> 
             <button class="btn btn-warning">Create</button>
         </div>
     </form>
@@ -57,6 +58,25 @@
     }
 }
 <script src="https://cdn.ckeditor.com/4.22.1/standard/ckeditor.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 <script>
+    //ckeditor show
     CKEDITOR.replace( 'Description' );
+    // Image preview show
+           function readURL(input) {
+        if (input.files && input.files[0]) {
+            let reader = new FileReader();
+
+            reader.onload = function (e) {
+                $("img#imgpreview").attr("src", e.target.result).width(200).height(200);
+            };
+
+            reader.readAsDataURL(input.files[0]);
+        }
+        else{
+            // If no file selected, show the default image
+            $("#imgpreview").attr("src", "~/images/default-img.jpg").css({ width: "200px", height: "200px" });
+        }
+    }
 </script>

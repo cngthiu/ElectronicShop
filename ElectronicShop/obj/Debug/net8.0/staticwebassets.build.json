@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VhKYl7gmz+NssE+X+W07PpdLVkQJY0FtnGtX8jbbAUA=",
+  "Hash": "mTAFoBIFMq02KG+dze5Y+agVRCCIIuVfFGTWdRl+n5A=",
   "Source": "ElectronicShop",
   "BasePath": "_content/ElectronicShop",
   "Mode": "Default",
@@ -302,12 +302,12 @@
       "OriginalItemSpec": "wwwroot\\images\\2.jpg"
     },
     {
-      "Identity": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\images\\2a96520e-223e-4486-bade-0fa17c35ceca_z5977315357937_43c82f386a15ff5fb749accf9298be15.jpg",
+      "Identity": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\images\\404.png",
       "SourceId": "ElectronicShop",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\",
       "BasePath": "_content/ElectronicShop",
-      "RelativePath": "images/2a96520e-223e-4486-bade-0fa17c35ceca_z5977315357937_43c82f386a15ff5fb749accf9298be15.jpg",
+      "RelativePath": "images/404.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -318,7 +318,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\2a96520e-223e-4486-bade-0fa17c35ceca_z5977315357937_43c82f386a15ff5fb749accf9298be15.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\404.png"
     },
     {
       "Identity": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\images\\8b7d8d1b-4749-4e70-957f-36076e6640f3_TKB.jpg",
@@ -376,6 +376,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\AdminLTELogo.png"
+    },
+    {
+      "Identity": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\images\\default-img.jpg",
+      "SourceId": "ElectronicShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\",
+      "BasePath": "_content/ElectronicShop",
+      "RelativePath": "images/default-img.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\default-img.jpg"
+    },
+    {
+      "Identity": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\images\\logo.png",
+      "SourceId": "ElectronicShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\",
+      "BasePath": "_content/ElectronicShop",
+      "RelativePath": "images/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
       "Identity": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\images\\user2-160x160.jpg",
@@ -604,6 +642,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\price-range.js"
+    },
+    {
+      "Identity": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\js\\site.js",
+      "SourceId": "ElectronicShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\",
+      "BasePath": "_content/ElectronicShop",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
       "Identity": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

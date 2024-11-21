@@ -29,6 +29,8 @@ namespace ElectronicShop
 
             app.UseSession();
 
+            app.UseStatusCodePagesWithRedirects("/Home/Error?statuscode={0}");
+
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {

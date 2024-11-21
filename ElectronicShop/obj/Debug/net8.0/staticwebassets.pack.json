@@ -57,8 +57,8 @@
       "PackagePath": "staticwebassets\\images\\2.jpg"
     },
     {
-      "Id": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\images\\2a96520e-223e-4486-bade-0fa17c35ceca_z5977315357937_43c82f386a15ff5fb749accf9298be15.jpg",
-      "PackagePath": "staticwebassets\\images\\2a96520e-223e-4486-bade-0fa17c35ceca_z5977315357937_43c82f386a15ff5fb749accf9298be15.jpg"
+      "Id": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\images\\404.png",
+      "PackagePath": "staticwebassets\\images\\404.png"
     },
     {
       "Id": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\images\\8b7d8d1b-4749-4e70-957f-36076e6640f3_TKB.jpg",
@@ -71,6 +71,14 @@
     {
       "Id": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\images\\AdminLTELogo.png",
       "PackagePath": "staticwebassets\\images\\AdminLTELogo.png"
+    },
+    {
+      "Id": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\images\\default-img.jpg",
+      "PackagePath": "staticwebassets\\images\\default-img.jpg"
+    },
+    {
+      "Id": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
       "Id": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\images\\user2-160x160.jpg",
@@ -119,6 +127,10 @@
     {
       "Id": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\js\\price-range.js",
       "PackagePath": "staticwebassets\\js\\price-range.js"
+    },
+    {
+      "Id": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
       "Id": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\lib\\bootstrap\\LICENSE",
