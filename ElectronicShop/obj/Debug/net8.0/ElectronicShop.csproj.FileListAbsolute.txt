@@ -258,3 +258,4 @@ D:\Temp\ElectronicShop\ElectronicShop\bin\Debug\net8.0\runtimes\win\lib\net7.0\S
 D:\Temp\ElectronicShop\ElectronicShop\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 D:\Temp\ElectronicShop\ElectronicShop\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 D:\Temp\ElectronicShop\ElectronicShop\obj\Debug\net8.0\scopedcss\Areas\Admin\Views\Shared\_LayoutAdmin.cshtml.rz.scp.css
+D:\Temp\ElectronicShop\ElectronicShop\obj\Debug\net8.0\ElectronicShop.sourcelink.json

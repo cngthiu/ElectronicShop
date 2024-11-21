@@ -1,0 +1,51 @@
+﻿@model IEnumerable<CategoryModel>
+
+@{
+    ViewData["Title"] = "Category List";
+    ViewData["Page"] = "Category";
+}
+<a class="btn btn-success" asp-action="Create" asp-controller="Category">Add Category</a>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th style="width: 10px">#</th>
+            <th scope="col">Category Name</th>
+            <th scope="col">Category Description</th>
+            <th scope="col">Category Slug</th>
+            <th scope="col">Category Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td scope="row">@item.Id</td>
+                <td>@item.Name</td>
+                <td>@Html.Raw(@item.Description)</td> @* xuất trực tiếp chuỗi HTML vào view mà không áp dụng encoding *@
+                <td>@item.Slug</td>
+                <td>
+                    @if (item.Status == 1)
+                    {
+                        <span class="text text-success">Hiên thị</span>
+                    }
+                    else
+                    {
+                        <span class="text text-danger">Ẩn</span>
+                    }
+                </td>
+                <td>
+                    <a class="btn btn-info" asp-action="Edit" asp-controller="Category" asp-route-Id="@item.Id">Edit</a>
+                    <a class="btn btn-danger" asp-action="Delete" asp-controller="Category" asp-route-Id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<ul class="pagination pagination-sm m-0 float-end">
+    <li class="page-item"> <a class="page-link" href="#">«</a> </li>
+    <li class="page-item"> <a class="page-link" href="#">1</a> </li>
+    <li class="page-item"> <a class="page-link" href="#">2</a> </li>
+    <li class="page-item"> <a class="page-link" href="#">3</a> </li>
+    <li class="page-item"> <a class="page-link" href="#">»</a> </li>
+</ul>
