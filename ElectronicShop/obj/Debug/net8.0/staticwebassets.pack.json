@@ -49,28 +49,24 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\images\\1.jpg",
-      "PackagePath": "staticwebassets\\images\\1.jpg"
-    },
-    {
-      "Id": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\images\\2.jpg",
-      "PackagePath": "staticwebassets\\images\\2.jpg"
-    },
-    {
       "Id": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\images\\404.png",
       "PackagePath": "staticwebassets\\images\\404.png"
     },
     {
-      "Id": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\images\\8b7d8d1b-4749-4e70-957f-36076e6640f3_TKB.jpg",
-      "PackagePath": "staticwebassets\\images\\8b7d8d1b-4749-4e70-957f-36076e6640f3_TKB.jpg"
-    },
-    {
-      "Id": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\images\\9761bfa6-6248-40df-a29a-f14eeac437f7_rangoaiktpm.jpg",
-      "PackagePath": "staticwebassets\\images\\9761bfa6-6248-40df-a29a-f14eeac437f7_rangoaiktpm.jpg"
-    },
-    {
       "Id": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\images\\AdminLTELogo.png",
       "PackagePath": "staticwebassets\\images\\AdminLTELogo.png"
+    },
+    {
+      "Id": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\images\\banner\\banner-03.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-03.jpg"
+    },
+    {
+      "Id": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\images\\banner\\banner-04.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-04.jpg"
+    },
+    {
+      "Id": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\images\\banner\\banner-2.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-2.jpg"
     },
     {
       "Id": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\images\\default-img.jpg",
@@ -79,6 +75,34 @@
     {
       "Id": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\images\\product\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\1.jpg"
+    },
+    {
+      "Id": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\images\\product\\13.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\13.jpg"
+    },
+    {
+      "Id": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\images\\product\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\2.jpg"
+    },
+    {
+      "Id": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\images\\product\\b11.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\b11.jpg"
+    },
+    {
+      "Id": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\images\\product\\b12.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\b12.jpg"
+    },
+    {
+      "Id": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\images\\product\\b4.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\b4.jpg"
+    },
+    {
+      "Id": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\images\\product\\b9.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\b9.jpg"
     },
     {
       "Id": "D:\\Temp\\ElectronicShop\\ElectronicShop\\wwwroot\\images\\user2-160x160.jpg",
