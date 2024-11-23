@@ -52,7 +52,8 @@
 							</tr>
 						}
 						<tr>
-							<td colspan="6">GrandTotal: <p class="cart_total_price">@Model.GrandTotal.ToString()</p></td>
+							<td colspan="5">GrandTotal: <p class="cart_total_price">@Model.GrandTotal.ToString()</p></td>
+							<td><a class="btn btn-primary btn-sm" asp-controller="Checkout">Check out</a></td>
 						</tr>
 					}
 					else

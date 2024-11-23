@@ -1,9 +1,9 @@
 ﻿using ElectronicShop.Models;
 using Microsoft.EntityFrameworkCore;
-
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 namespace ElectronicShop.Repository
 {
-	public class DataContext : DbContext
+	public class DataContext : IdentityDbContext<AppUserModel>
 	{
 		public DataContext(DbContextOptions<DataContext> options):base(options) { }
 		public DbSet<ProductModel> Products { get; set; }

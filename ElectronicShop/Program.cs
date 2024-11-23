@@ -1,4 +1,6 @@
+using ElectronicShop.Models;
 using ElectronicShop.Repository;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace ElectronicShop
@@ -25,7 +27,23 @@ namespace ElectronicShop
                 options.UseSqlServer(connectionString);
             });
 
-            var app = builder.Build();
+			builder.Services.AddIdentity<AppUserModel,IdentityRole>()
+	                        .AddEntityFrameworkStores<DataContext>().AddDefaultTokenProviders();
+
+			builder.Services.Configure<IdentityOptions>(options =>
+			{
+				// Password settings.
+				options.Password.RequireDigit = true;
+				options.Password.RequireLowercase = true;
+				options.Password.RequireNonAlphanumeric = false;
+				options.Password.RequireUppercase = false;
+				options.Password.RequiredLength = 4;
+
+				options.User.RequireUniqueEmail = true;
+			});
+
+
+			var app = builder.Build();
 
             app.UseSession();
 
@@ -40,7 +58,9 @@ namespace ElectronicShop
 
             app.UseRouting();
 
-            app.UseAuthorization();
+			app.UseAuthentication();
+
+			app.UseAuthorization();
 
             app.MapControllerRoute(
                 name: "areas",

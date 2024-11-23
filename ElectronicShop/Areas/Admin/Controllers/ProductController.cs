@@ -1,5 +1,6 @@
 ﻿using ElectronicShop.Models;
 using ElectronicShop.Repository;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -7,7 +8,8 @@ using Microsoft.EntityFrameworkCore;
 namespace ElectronicShop.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    public class ProductController : Controller
+	[Authorize]
+	public class ProductController : Controller
     {
         private readonly DataContext _dataContext;
         private readonly IWebHostEnvironment _IWebHostEnv;
